@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Kevixa Official Favicon Emblem -->
+  <!-- Top Leaf / Seed Element -->
+  <path
+    d="M 256 32 C 280 68 280 102 256 138 C 232 102 232 68 256 32 Z"
+    fill="#0a7268"
+  />
+
+  <!-- Left Arrow Element -->
+  <path
+    d="M 148 54 L 62 186 L 118 186 L 118 316 L 178 316 L 178 186 L 234 186 Z"
+    fill="#0a7268"
+  />
+
+  <!-- Main Dynamic Ribbon 'K' Shape -->
+  <!-- Upper Right Loop + Center Bridge + Lower Dynamic Legs -->
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M 226 218 C 248 162 292 98 376 98 C 442 98 474 138 442 198 C 400 274 300 326 216 358 L 292 464 L 372 464 L 468 464 L 332 308 C 392 268 464 212 488 152 C 516 84 466 48 376 48 C 268 48 214 136 186 206 C 172 240 160 278 140 316 C 122 350 96 384 126 428 C 152 464 200 464 246 432 C 284 406 312 374 340 338 L 296 294 C 274 322 252 346 226 364 C 198 382 176 386 166 366 C 158 350 168 328 184 298 C 200 270 214 242 226 218 Z M 382 142 C 342 142 308 180 276 236 C 330 206 388 174 416 156 C 418 150 412 142 382 142 Z"
+    fill="#0a7268"
+  />
+
+  <!-- Inner Fold Contour Accent for Lower K Leg -->
+  <path
+    d="M 238 352 L 298 440 L 262 440 L 210 368 C 220 362 228 358 238 352 Z"
+    fill="#0a7268"
+  />
+</svg>

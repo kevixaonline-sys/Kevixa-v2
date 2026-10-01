@@ -1,0 +1,6 @@
+{
+  "name": "Kevixa CDSCO B2B",
+  "description": "B2B cosmetic formulation and CDSCO-certified manufacturing marketplace connecting beauty brands and certified factories with RFQ submissions and quoting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
