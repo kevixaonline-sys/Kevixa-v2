@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html.dark, body.dark {
+    color-scheme: dark;
+  }
+
+  html, body {
+    font-family: 'Inter', sans-serif;
+    background-color: #faf9f7;
+    color: #1a1c1b;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+  }
+
+  html.dark, body.dark {
+    background-color: #0d0e11;
+    color: #f1f2f4;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-headline {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+    vertical-align: middle;
+  }
+}
+
+/* Comprehensive Dark Mode overrides for seamless app surfaces */
+.dark body,
+.dark html {
+  background-color: #0d0e11 !important;
+  color: #f1f2f4 !important;
+}
+
+.dark .bg-\[\#faf9f7\] {
+  background-color: #0d0e11 !important;
+}
+
+.dark .bg-white {
+  background-color: #16171b !important;
+}
+
+.dark .bg-\[\#efeeec\] {
+  background-color: #22242a !important;
+}
+
+.dark .bg-\[\#f2f1ef\] {
+  background-color: #1d1f24 !important;
+}
+
+.dark .bg-\[\#e3e2e0\] {
+  background-color: #2a2d34 !important;
+}
+
+.dark .text-\[\#1a1c1b\] {
+  color: #f3f4f6 !important;
+}
+
+.dark .text-\[\#45464d\] {
+  color: #c9ccd3 !important;
+}
+
+.dark .text-\[\#76777d\] {
+  color: #9ca3af !important;
+}
+
+.dark .border-\[\#efeeec\] {
+  border-color: #272a31 !important;
+}
+
+.dark .border-\[\#e3e2e0\] {
+  border-color: #32363e !important;
+}
+
+.dark .border-\[\#c6c6cd\] {
+  border-color: #3e434d !important;
+}
+
+.dark .border-\[\#d2d1cf\] {
+  border-color: #383c45 !important;
+}
+
+.dark .hover\:bg-\[\#efeeec\]:hover {
+  background-color: #23262d !important;
+}
+
+.dark .hover\:bg-\[\#f2f1ef\]:hover {
+  background-color: #23262d !important;
+}
+
+.dark .hover\:bg-white:hover {
+  background-color: #1d1f24 !important;
+}
+
+.dark .shadow-xs,
+.dark .shadow-sm,
+.dark .shadow-md,
+.dark .shadow-lg,
+.dark .shadow-xl {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.6) !important;
+}
+
+.dark input[type="text"],
+.dark input[type="email"],
+.dark input[type="password"],
+.dark input[type="number"],
+.dark input[type="tel"],
+.dark textarea,
+.dark select {
+  background-color: #1a1c21 !important;
+  color: #f3f4f6 !important;
+  border-color: #32363e !important;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #6b7280 !important;
+}
+
+.dark .bg-black\/50,
+.dark .bg-black\/60 {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 1rem);
+}
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
